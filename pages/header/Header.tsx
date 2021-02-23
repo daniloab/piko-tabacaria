@@ -2,21 +2,19 @@ import React from "react";
 
 import styled from "styled-components";
 import PikoLogo from "../../public/logo_piko_white.svg";
-import { Flex } from "rebass";
 
 const Header = styled.header`
   display: flex;
   flex: 1;
   flex-direction: row;
   color: white;
-  padding: 30px 123px;
+  padding: 30px 123px 0px;
   width: 100%;
   max-width: 1080px;
+  z-index: 1;
 `;
 
 const Nav = styled.nav`
-    height: 136px;
-    
     svg {
       width: 81px;
     }
